@@ -1,0 +1,11 @@
+[package]
+name = "rustoveva"
+version = "1.0.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.4", features = ["derive"] }
+anyhow = "1.0"
+colored = "2.0"
+humansize = "2.1"
+regex = "1.10"
