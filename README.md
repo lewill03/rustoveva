@@ -1,8 +1,9 @@
 # RUSTOVEVA
 
  ## Original project: [Genoveva](https://github.com/joseaguardia/GENOVEVA)
- Completely rewritten to Rust for better performance.\
+ **Completely rewritten to Rust for better performance.**\
  Comparison between Genoveva and Rustoveva:\
+ \
 ![](genoveva-output.png) ![](rustoveva-output.png)
 
  ### Fast and versatile name generator for custom brute force attacks
