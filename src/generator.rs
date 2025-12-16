@@ -30,7 +30,7 @@ impl<W: Write> Generator<W> {
             self.writer.write_all(b"\n")?;
             if self.verbose {
                 let elapsed = self.start_time.elapsed().as_secs();
-                println!("\t[{:?} s]\t{}", elapsed, format!("Generando '{}'", text).blue());
+                println!("\t[{:?} s]\t{}", elapsed, format!("Generating '{}'", text).blue());
             }
         }
         Ok(())
@@ -90,7 +90,7 @@ impl<W: Write> Generator<W> {
 
         if self.verbose {
             let elapsed = self.start_time.elapsed().as_secs();
-             println!("\t[{:?} s]\t{}", elapsed, format!("Generando '{}'", name).blue());
+             println!("\t[{:?} s]\t{}", elapsed, format!("Generating '{}'", name).blue());
         }
 
         self.write_line(name)?;
