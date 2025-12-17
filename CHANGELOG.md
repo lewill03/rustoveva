@@ -11,8 +11,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Other
 
-- create rust workflow with release-plz
-- formatting
-- add readme and translation
-- Initial commit: rewritten to Rust
-- Initial commit
+- Initial release: rewritten to Rust
